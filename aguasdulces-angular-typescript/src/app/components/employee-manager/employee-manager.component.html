@@ -1,1 +1,69 @@
-<p>employee-manager works!</p>
+<div class="container mt-3">
+
+    <div class="row">
+        <div class="col">
+            <p class="h3 text-danger fw-bold">NG Employees
+                <a class="btn btn-danger btn-sm" routerLink="/employees/add"><i class="fa fa-plus-cirlce"></i> Add employee</a>
+            </p>
+            <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque in dolorem illum quas doloremque rem velit, alias natus, reiciendis animi, illo vero voluptatibus delectus accusantium modi ipsum non quibusdam veritatis.</p>
+            
+            <form action="">
+
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <div class="row">
+                            <div class="col">
+                                <input class="form-control" placeholder="Search Employee..." type="text" />
+                            </div>
+                            <div class="col">
+                                <input class="btn btn-outline-dark" type="submit" value="Search" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<!-- <CARDS> -->
+<div class="container mt-3">
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="card list-group-item-danger shadow-lg">
+                <div class="card-body">
+
+                    <div class="row align-item-center">
+                       <div class="col-sm-4">
+                        <img class="contact-img" src="http://assets.stickpng.com/images/585e4bcdcb11b227491c3396.png" alt="" />
+                       </div>
+                       <div class="col-sm-7">
+                        <ul class="list-group">
+                            <li class="list-group-item">Name : <span class="fw-bold">Name</span></li>
+                            <li class="list-group-item">Age : <span class="fw-bold">Age</span></li>
+                            <li class="list-group-item">Position : <span class="fw-bold">Position</span></li>
+                        </ul>
+                       </div>
+                       <div class="col-sm-1 d-flex flex-column justify-content-center align-items-center">
+
+                        <a class="btn btn-warning my-1" routerLink="/employees/view/:employeeId"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-primary my-1" routerLink="/employees/edit/:employeeId"><i class="fa fa-pencil"></i></a>
+                        <button class="btn btn-danger my-1"><i class="fa fa-trash-alt"></i></button>
+
+                       </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- <.CARDS> -->
