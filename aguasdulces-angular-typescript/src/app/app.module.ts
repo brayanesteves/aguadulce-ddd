@@ -4,20 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { ContactManagerComponent } from './components/contact-manager/contact-manager.component';
-import { AddContactComponent } from './components/add-contact/add-contact.component';
-import { EditContactComponent } from './components/edit-contact/edit-contact.component';
-import { ViewContactComponent } from './components/view-contact/view-contact.component';
+import { EmployeeManagerComponent } from './components/employee-manager/employee-manager.component';
+import { AddEmployeeComponent } from './components/add-employee/add-employee.component';
+import { EditEmployeeComponent } from './components/edit-employee/edit-employee.component';
+import { ViewEmployeeComponent } from './components/view-employee/view-employee.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    ContactManagerComponent,
-    AddContactComponent,
-    EditContactComponent,
-    ViewContactComponent,
+    EmployeeManagerComponent,
+    AddEmployeeComponent,
+    EditEmployeeComponent,
+    ViewEmployeeComponent,
     SpinnerComponent
   ],
   imports: [
