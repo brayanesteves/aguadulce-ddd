@@ -9,6 +9,7 @@ import { AddEmployeeComponent } from './components/add-employee/add-employee.com
 import { EditEmployeeComponent } from './components/edit-employee/edit-employee.component';
 import { ViewEmployeeComponent } from './components/view-employee/view-employee.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
     AddEmployeeComponent,
     EditEmployeeComponent,
     ViewEmployeeComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

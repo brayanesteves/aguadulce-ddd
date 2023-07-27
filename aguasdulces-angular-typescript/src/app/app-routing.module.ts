@@ -4,6 +4,7 @@ import { EmployeeManagerComponent } from './components/employee-manager/employee
 import { AddEmployeeComponent } from './components/add-employee/add-employee.component';
 import { EditEmployeeComponent } from './components/edit-employee/edit-employee.component';
 import { ViewEmployeeComponent } from './components/view-employee/view-employee.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 const routes: Routes = [
   { path:                          '', redirectTo:'/employees/admin', pathMatch:'full' },
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path:             'employees/add', component:AddEmployeeComponent },
   { path:'employees/edit/:employeeId', component:EditEmployeeComponent },
   { path:'employees/view/:employeeId', component:ViewEmployeeComponent },
+  { path:                        '**', component:PageNotFoundComponent },
 ];
 
 @NgModule({
