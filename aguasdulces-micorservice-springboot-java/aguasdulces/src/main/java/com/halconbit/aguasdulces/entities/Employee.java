@@ -1,14 +1,13 @@
 package com.halconbit.aguasdulces.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "employee")
 public class Employee {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private String identification;
     private String name;
     private int age;
